@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { StephComponent } from './steph/steph.component';
 import { CashComponent } from './cash/cash.component';
+import { KikoniComponent } from './kikoni/kikoni.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StephComponent,
-    CashComponent
+    CashComponent,
+    KikoniComponent
   ],
   imports: [
     BrowserModule
