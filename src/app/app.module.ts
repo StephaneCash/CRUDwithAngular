@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { StephComponent } from './steph/steph.component';
+import { CashComponent } from './cash/cash.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    StephComponent
+    StephComponent,
+    CashComponent
   ],
   imports: [
     BrowserModule
