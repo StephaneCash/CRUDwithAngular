@@ -1,1 +1,9 @@
-<p>color works!</p>
+<div class="color" [style.backgroundColor]="color">Color</div>
+
+<input 
+    [(ngModel)]="color" 
+    class="form-control" 
+    typ="text" 
+/>
+
+La color est {{color}}
